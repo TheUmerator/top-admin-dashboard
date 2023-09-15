@@ -1,23 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+    border: 1 px solid rgb(172, 240, 71);
 }
-
+body{
+    box-sizing: border-box;
+}
 .site-container {
     width: 100vw;
     height: 100vh;
+
     display: grid;
-    grid-template: 0.8fr 3fr /1fr 4fr;
-    /* grid-template:500px 500px/500px 500px; */
-    grid-template-areas: 
-    "sidebar header"
-    "sidebar panel"
+    grid-template: 0.8fr 3fr /1fr 4fr; 
+    grid-template-areas:
+        "sidebar header"
+        "sidebar panel"
     ;
 }
-
+li{
+    list-style-type: none;
+}
 .sidebar {
-    background-color: blueviolet;
+    background: blueviolet;
     grid-area: sidebar;
+
+    display: grid;
+    grid-template: 1fr 1fr 1fr /1fr;
 }
 
 .header {
