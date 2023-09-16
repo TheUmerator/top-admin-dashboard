@@ -1,10 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1 px solid rgb(172, 240, 71);
+    border: 1px solid rgb(172, 240, 71);
 }
 body{
     box-sizing: border-box;
+    font-family: Roboto,monospace;
 }
 .site-container {
     width: 100vw;
@@ -17,9 +18,18 @@ body{
         "sidebar panel"
     ;
 }
+
+.sidebar svg{
+    display: inline-block;
+    width:auto;
+    height: 1.5rem;
+    fill: white;
+}
 li{
     list-style-type: none;
-}
+    /* display: grid;
+    grid-template:1fr/1fr 1fr; */
+    }
 .sidebar {
     background: blueviolet;
     grid-area: sidebar;
