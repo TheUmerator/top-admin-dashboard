@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid #96b8e7;
+
 }
 
 body {
@@ -128,7 +128,8 @@ li {
 .header .bottom {
     background: #a8dadc;
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 6fr 4fr;
+    align-items: center;
 }
 .bottom .greeting-box {
     display: grid;
@@ -146,7 +147,31 @@ li {
 .greeting-box svg {
     height: 3rem;
 }
+
+.btn-box {
+    display: grid;
+    grid-template-columns: repeat(3,7rem);
+    gap:0.5rem;
+}
+.btm-btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    background-color:#f1faee;
+    color: #1d3557;
+    border: none;
+}
+.btm-btn:hover{
+    background-color:#1d3557;
+    color: #f1faee;
+}
+
+
+
 .panel {
     background-color: #f1faee;
     grid-area: panel;
+}
+*{
+/* border: 1px solid #96b8e7; */
 }
