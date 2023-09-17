@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* border: 1px solid #96b8e7; */
+    border: 1px solid #96b8e7;
 }
 
 body {
@@ -116,16 +116,36 @@ li {
 .profile .name {
     width: 9rem;
     font-size: 1.3rem;
+    margin-right: 2rem;
 }
 
 
 
-
+.top label,.bottom .greeting-box{
+    margin-left: 2rem;
+}
 
 .header .bottom {
     background: #a8dadc;
+    display: grid;
+    grid-template-columns: 7fr 3fr;
 }
+.bottom .greeting-box {
+    display: grid;
+    grid-template-columns: repeat(1,4rem) 15rem;
+    align-items: center;
 
+}
+.greeting {
+    width:15rem;
+    font-weight: 500;
+}
+.greeting-msg{
+    font-size: 0.8rem;
+}
+.greeting-box svg {
+    height: 3rem;
+}
 .panel {
     background-color: #f1faee;
     grid-area: panel;
