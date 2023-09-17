@@ -41,7 +41,7 @@ li {
 }
 
 .sidebar {
-    background: blueviolet;
+    background: #1d3557;
     grid-area: sidebar;
 
     display: grid;
@@ -57,7 +57,7 @@ li {
 }
 
 .header .top {
-    background: darkblue;
+    background: #457b9d;
     /* display: grid; */
 
 }
@@ -66,10 +66,10 @@ li {
 }
 
 .header .bottom {
-    background: darkred;
+    background: #a8dadc;
 }
 
 .panel {
-    background-color: lightsteelblue;
+    background-color: #f1faee;
     grid-area: panel;
 }
