@@ -171,7 +171,21 @@ li {
 .panel {
     background-color: #f1faee;
     grid-area: panel;
+    /* color: #1d3557; */
+}
+.left{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,12rem);
+    gap: 1rem;
+}
+.left .card {
+    background-color: #457b9d;
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 1rem;
 }
 *{
-/* border: 1px solid #96b8e7; */
+border: 1px solid #96b8e7;
 }
