@@ -224,6 +224,13 @@ li {
 
     padding: 1rem;
     border-radius: 0.5rem;
+
+    display: grid;
+    grid-template-rows: 1fr 2rem;
+    /* grid-template-columns: 1fr 6rem; */
+}
+.card-icons {
+    justify-self:end;
 }
 
 .right {
@@ -306,5 +313,5 @@ li {
 
 
 * {
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
