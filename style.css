@@ -37,7 +37,6 @@ li {
     grid-area: sidebar;
 
     display: grid;
-    /* border: 1px solid red; */
     grid-template: 1fr 3fr 6fr /1fr;
     gap: 3rem;
 }
@@ -197,22 +196,30 @@ li {
 
 .left {
     display: grid;
-    grid-template-columns: repeat(auto-fit, 12rem);
+    grid-template-columns: repeat(auto-fill, 17rem);
     gap: 1rem;
+
+
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
 }
 
 .left .card {
     background-color: #457b9d;
-    width: 10rem;
-    height: 10rem;
+    width: 17rem;
+    height: 17rem;
     padding: 1rem;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
 }
 
 .right {
     display: grid;
     grid-template-rows: 1fr 1fr;
     gap: 1rem;
+    
+    /* padding: 1rem; */
 }
 
 .an-box {
@@ -220,6 +227,7 @@ li {
     background-color: #a8dadc;
     width: 12rem;
     border-radius: 0.7rem;
+
     padding: 1rem;
 }
 
@@ -259,5 +267,5 @@ li {
 
 
 * {
-    outline: 1px solid #4637ef;
+    outline: 1px solid red;
 }
