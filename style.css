@@ -303,13 +303,20 @@ h2,h3{
 
 .an-title {
     font-weight: 550;
+    margin-top: 0.3rem;
 }
-
-.an-box .an-desc {
-    padding-bottom: 0.5rem;
+.an-desc {
+    padding-bottom: 0.3rem;
     border-bottom: 1px solid #1d3557;
 }
 
+/* .an-box .an-desc {
+    /* padding-bottom: 0.5rem; */
+    /* border-bottom: 1px solid #1d3557; */
+/* }  */
+.first .an-title {
+    padding-top: none;
+}
 .last .an-desc {
     border: none;
     padding-bottom: none;
