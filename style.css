@@ -56,7 +56,9 @@ li {
 .sidebar svg {
     padding-left: 1rem;
 }
-
+.logo {
+    margin-top: 0.6rem;
+}
 .logo svg {
     height: 3rem;
 }
@@ -127,6 +129,8 @@ li {
     width: 9rem;
     font-size: 1.3rem;
     margin-right: 2rem;
+    font-weight: 600;
+
 }
 
 
@@ -194,11 +198,26 @@ li {
     /* margin: 1rem; */
 }
 
+
+.projects h2 {
+    color: #457b9d;
+
+
+    margin: 1rem;
+    margin-left: 2rem;
+}
+
+h2,h3{
+    color: #457b9d;
+
+}
+
+
 .left {
     display: grid;
     grid-template-columns: repeat(auto-fill, 28rem);
-    margin: 1rem;
-
+    /* margin: 1rem; */
+    /* margin-bottom: 1rem; */
     justify-content: center;
     gap: 1rem;
     /* row-gap: 1rem; */
@@ -223,25 +242,36 @@ li {
     /* height: 12rem; */
 
     padding: 1rem;
+    border-left: 10px solid #96b8e7;
     border-radius: 0.5rem;
 
     display: grid;
     grid-template-rows: 1fr 2rem;
+    overflow: hidden;
     /* grid-template-columns: 1fr 6rem; */
 }
 .card-icons {
     justify-self:end;
 }
+.card-text {
+    margin-top: 1rem;
+}
+.card-text .heading {
+    font-weight: 600;
+}
 
 .right {
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 2rem 0.5fr 2rem 0.5fr;
     gap: 1rem;
 
     margin: 1rem;
     margin-top: 1rem;
     justify-content: space-evenly;
     /* padding: 1rem; */
+}
+
+.right h2 {
 }
 
 .an-box,
