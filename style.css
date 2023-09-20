@@ -84,7 +84,7 @@ li {
 .header .top {
     background: #457b9d;
     display: grid;
-    grid-template-columns: 7fr 3fr;
+    grid-template-columns: 8fr 2fr;
     align-items: center;
 }
 
@@ -143,7 +143,7 @@ li {
 .header .bottom {
     background: #a8dadc;
     display: grid;
-    grid-template-columns: 6fr 4fr;
+    grid-template-columns: 7fr 3fr;
     align-items: center;
 }
 
